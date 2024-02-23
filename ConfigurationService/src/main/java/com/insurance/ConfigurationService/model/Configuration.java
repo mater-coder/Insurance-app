@@ -10,4 +10,5 @@ public class Configuration {
     String remoteName;
     String exposedModule;
     String outlet;
+    String module;
 }
