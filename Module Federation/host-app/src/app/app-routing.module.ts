@@ -12,21 +12,25 @@ const initialRoutes : Routes = [
 
   { path: '', 
   outlet : "app1",
- loadChildren: () =>loadRemoteModule({
-    remoteEntry: newRoutes.routes[0].remoteEntry,
-    remoteName:newRoutes.routes[0].remoteName,
-    exposedModule: newRoutes.routes[0].exposedModule
-  }).then((m) => m[newRoutes.routes[0].module]).catch(err=>console.log(err)
-  )
+  loadChildren: () => {
+    const mf1 = JSON.parse(localStorage.getItem('mfe1') || '{}');
+    return loadRemoteModule({
+      remoteEntry: mf1.remoteEntry,
+      remoteName: mf1.remoteName,
+      exposedModule: mf1.exposedModule
+    }).then((m) => m[mf1.module]).catch(err => console.log(err));
+  }
 },
 { path: '', 
   outlet : "app2",
-loadChildren: () =>loadRemoteModule({
-  remoteEntry: newRoutes.routes[1].remoteEntry,
-  remoteName:newRoutes.routes[1].remoteName,
-  exposedModule: newRoutes.routes[1].exposedModule
-}).then((m) => m[newRoutes.routes[1].module]).catch(err=>console.log(err)
-)
+  loadChildren: () => {
+    const mf2 = JSON.parse(localStorage.getItem('mfe2') || '{}');
+    return loadRemoteModule({
+      remoteEntry: mf2.remoteEntry,
+      remoteName: mf2.remoteName,
+      exposedModule: mf2.exposedModule
+    }).then((m) => m[mf2.module]).catch(err => console.log(err));
+  }
 }  
 ];  
 
