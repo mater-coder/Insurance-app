@@ -1,0 +1,154 @@
+{
+  "savedLogs": [
+    {
+      "name": "",
+      "date": "",
+      "time": "",
+      "id": "0c7a"
+    },
+    {
+      "id": "37cb",
+      "name": "Life Insurance",
+      "emiAmount": 5000,
+      "date": "Mon Feb 12 2024",
+      "time": "9:31:23 pm",
+      "status": "SUCCESS"
+    },
+    {
+      "id": "df60",
+      "name": "Life Insurance",
+      "emiAmount": 5000,
+      "date": "Mon Feb 12 2024",
+      "time": "9:49:31 pm",
+      "status": "SUCCESS"
+    },
+    {
+      "id": "6f6b",
+      "name": "Car Insurance",
+      "emiAmount": 3000,
+      "date": "Tue Feb 13 2024",
+      "time": "5:13:11 pm",
+      "status": "SUCCESS"
+    },
+    {
+      "id": "b4e1",
+      "name": "Car Insurance",
+      "emiAmount": 3000,
+      "date": "Tue Feb 13 2024",
+      "time": "5:13:11 pm",
+      "status": "SUCCESS"
+    },
+    {
+      "id": "80ce",
+      "name": "Car Insurance",
+      "emiAmount": 3000,
+      "date": "Tue Feb 13 2024",
+      "time": "5:13:19 pm",
+      "status": "SUCCESS"
+    },
+    {
+      "id": "fd29",
+      "name": "Car Insurance",
+      "emiAmount": 3000,
+      "date": "Tue Feb 13 2024",
+      "time": "5:13:19 pm",
+      "status": "SUCCESS"
+    },
+    {
+      "id": "4130",
+      "name": "Car Insurance",
+      "emiAmount": 3000,
+      "date": "Tue Feb 13 2024",
+      "time": "5:13:19 pm",
+      "status": "SUCCESS"
+    },
+    {
+      "id": "0e82",
+      "name": "Life Insurance",
+      "emiAmount": 5000,
+      "date": "Tue Feb 13 2024",
+      "time": "5:14:08 pm",
+      "status": "SUCCESS"
+    },
+    {
+      "id": "63ca",
+      "name": "Life Insurance",
+      "emiAmount": 5000,
+      "date": "Tue Feb 13 2024",
+      "time": "5:14:08 pm",
+      "status": "SUCCESS"
+    },
+    {
+      "id": "c6e8",
+      "name": "Life Insurance",
+      "emiAmount": 5000,
+      "date": "Tue Feb 13 2024",
+      "time": "5:14:08 pm",
+      "status": "SUCCESS"
+    },
+    {
+      "id": "585f",
+      "name": "Life Insurance",
+      "emiAmount": 5000,
+      "date": "Tue Feb 13 2024",
+      "time": "5:14:08 pm",
+      "status": "SUCCESS"
+    },
+    {
+      "id": "1e25",
+      "name": "Life Insurance",
+      "emiAmount": 5000,
+      "date": "Tue Feb 13 2024",
+      "time": "5:14:13 pm",
+      "status": "SUCCESS"
+    },
+    {
+      "id": "0b47",
+      "name": "Life Insurance",
+      "emiAmount": 5000,
+      "date": "Tue Feb 13 2024",
+      "time": "5:14:13 pm",
+      "status": "SUCCESS"
+    },
+    {
+      "id": "a7d1",
+      "name": "Life Insurance",
+      "emiAmount": 5000,
+      "date": "Tue Feb 13 2024",
+      "time": "5:14:13 pm",
+      "status": "SUCCESS"
+    },
+    {
+      "id": "3765",
+      "name": "Life Insurance",
+      "emiAmount": 5000,
+      "date": "Tue Feb 13 2024",
+      "time": "5:14:13 pm",
+      "status": "SUCCESS"
+    },
+    {
+      "id": "4e4b",
+      "name": "Life Insurance",
+      "emiAmount": 5000,
+      "date": "Tue Feb 13 2024",
+      "time": "5:14:13 pm",
+      "status": "SUCCESS"
+    },
+    {
+      "id": "40d8",
+      "name": "Life Insurance",
+      "emiAmount": 5000,
+      "date": "Tue Feb 13 2024",
+      "time": "6:07:27 pm",
+      "status": "SUCCESS"
+    },
+    {
+      "id": "5e0b",
+      "name": "Life Insurance",
+      "emiAmount": 5000,
+      "date": "Wed Feb 14 2024",
+      "time": "10:33:35 pm",
+      "status": "SUCCESS"
+    }
+  ]
+}
