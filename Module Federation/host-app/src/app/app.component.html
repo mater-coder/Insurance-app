@@ -1,0 +1,30 @@
+<div>
+<h1>New India Insurance Dashboard</h1>
+<div class="container" [ngClass]="{ 'container-border': showLegendFlag}">
+  <div class="mf-container" [ngClass]="{ 'mfe1-border': showLegendFlag}">
+    <div class="mfe1banner" *ngIf="showLegendFlag">
+      <div class="banner">
+        <h5>This is MFE 1 Application</h5>
+      </div>
+    </div>
+    <div id="mfe1Iframe" class="routers">
+      <router-outlet name="app1"></router-outlet>
+    </div>
+  </div>
+  <div class="mf-container" [ngClass]="{ 'mfe2-border': showLegendFlag}">
+    <div class="mfe2banner" *ngIf="showLegendFlag">
+      <div class="banner">
+        <h5>This is MFE 2 Application</h5>
+      </div>
+    </div>
+    <div id="mfe2Iframe" class="routers">
+      <router-outlet name="app2"></router-outlet>
+    </div>
+  </div>
+</div>
+<div class="view-legend-button">
+  <div class="view-legend-message" *ngIf="showLegendFlag">Please continue to pay, it will not affect the payment process.</div>
+  <button id="viewLegendsBtn" (click)="showLegends()">View Legends</button>
+  <!-- <app-shared-button></app-shared-button> -->
+</div>
+</div>
