@@ -19,8 +19,8 @@ public class ConfigController {
     public ResponseEntity<ConfigurationWrapper> getConfigurations(){
         List<Configuration> configurationList = new ArrayList<>();
 
-        configurationList.add(new Configuration("https://insurance-name.netlify.app/remoteEntry.js","remoteApp","./CounterModule","app1"));
-        configurationList.add(new Configuration("https://insurance-details.netlify.app/remoteEntry.js","remoteApp2","./MicrofrontendModule","app2"));
+        configurationList.add(new Configuration("https://insurance-name.netlify.app/remoteEntry.js","remoteApp","./CounterModule","app1","CounterModule"));
+        configurationList.add(new Configuration("https://insurance-details.netlify.app/remoteEntry.js","remoteApp2","./MicrofrontendModule","app2","MicrofrontendModule"));
 
         ConfigurationWrapper configurationWrapper = new ConfigurationWrapper(configurationList);
         return new ResponseEntity<>(configurationWrapper, HttpStatus.OK);
