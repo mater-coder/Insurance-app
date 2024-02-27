@@ -4,12 +4,14 @@ import { MicrofrontendComponent } from './microfrontend.component';
 
 const routes: Routes = [
   {
-    path:"", component:MicrofrontendComponent, pathMatch:"full"
-  }
+    path: '',
+    component: MicrofrontendComponent,
+    pathMatch: 'full',
+  },
 ];
 
 @NgModule({
   imports: [RouterModule.forChild(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
-export class MicrofrontendRoutingModule { }
+export class MicrofrontendRoutingModule {}

@@ -7,18 +7,9 @@ import { CounterRoutingModule } from './counter-routing.module';
 import { CounterComponent } from './counter.component';
 export { CounterComponent };
 @NgModule({
-  declarations: [
-    CounterComponent,
-  
-  ],
-  imports: [
-    CommonModule,
-    CounterRoutingModule,
-    FormsModule,
-    HttpClientModule,
-  
-  ],
+  declarations: [CounterComponent],
+  imports: [CommonModule, CounterRoutingModule, FormsModule, HttpClientModule],
   providers: [InsuranceDetailsService],
   exports: [CounterComponent],
 })
-export class CounterModule { }
+export class CounterModule {}

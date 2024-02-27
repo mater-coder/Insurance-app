@@ -4,12 +4,14 @@ import { CounterComponent } from './counter.component';
 
 const routes: Routes = [
   {
-    path:"", component:CounterComponent, pathMatch:"full"
-  }
+    path: '',
+    component: CounterComponent,
+    pathMatch: 'full',
+  },
 ];
 
 @NgModule({
   imports: [RouterModule.forChild(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
-export class CounterRoutingModule { }
+export class CounterRoutingModule {}
